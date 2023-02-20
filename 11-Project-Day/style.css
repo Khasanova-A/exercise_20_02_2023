@@ -1,0 +1,353 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+/* fonts */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* heaeder */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  margin: auto;
+}
+
+body {
+  background-image: url(images/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 540px;
+  text-align: center;
+  color: white;
+
+  margin: auto;
+}
+
+body h2 {
+  color: black;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: white;
+}
+
+nav {
+  gap: 20px;
+}
+nav a {
+  margin: 30px 0;
+}
+
+a:hover {
+  border-radius: 30px;
+  border: 2px solid white;
+  margin: 28px -2px;
+}
+
+h1#dreamshare {
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+p#firstPart {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+main a {
+  background-color: #ff4e50;
+  border-radius: 30px;
+  padding: 10px 50px;
+  white-space: nowrap;
+}
+
+/* cards */
+
+.card {
+  background-color: darkgray;
+  width: 300px;
+  height: 240px;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h3 {
+  text-align: left;
+}
+
+.step {
+  background-color: #ff4e50;
+  border-radius: 40px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  width: 80px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#card1 {
+  background-image: linear-gradient(0deg, #00000099 0%, #00000000 100%), url(images/step1desk.png);
+}
+
+#card2 {
+  background-image: linear-gradient(0deg, #00000099 0%, #00000000 100%), url(images/step2desk.png);
+}
+
+#card3 {
+  background-image: linear-gradient(0deg, #00000099 0%, #00000000 100%), url(images/step3desk.png);
+}
+
+div#secondPart {
+  margin: auto;
+  position: center;
+
+  width: 95%;
+}
+
+div.card {
+  margin: auto;
+
+  margin-bottom: 10px;
+}
+
+div#cards {
+  margin-bottom: 30px;
+}
+
+h5 footer {
+  color: black;
+}
+
+footer p {
+  color: black;
+}
+
+div#secondPart p {
+  color: black;
+}
+
+div#secondPart .card p {
+  font-size: 14px;
+  text-align: left;
+  color: white;
+}
+
+h4 {
+  color: #ff4e50;
+  font-size: 20px;
+}
+
+div#secondPart a {
+  margin-top: 10px;
+  padding: 10px 80px;
+}
+
+div#secondPart .card p.step {
+  text-align: center;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 0px 1px 0px #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 50px;
+  color: black;
+}
+
+main {
+  border-bottom: 3px solid #ff4e50;
+  padding-bottom: 40px;
+}
+#company2 {
+  display: flex;
+
+  padding: 0 50px;
+  margin-top: 0px;
+  justify-content: space-around;
+}
+
+#company p {
+  margin: 0px auto;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 05px;
+}
+
+div#secondPart {
+  padding-top: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+
+  h1#dreamshare {
+    margin-top: -63px;
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  h1 {
+    font-size: 52px;
+    padding: 50px 100px 0 100px;
+    margin: 0px;
+  }
+
+  #firstPart p {
+    font-size: 24px;
+  }
+
+  div#seconPart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: self-start;
+    padding-top: 30px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 50px;
+    margin: auto;
+
+    flex: 1 1 0;
+    width: 0;
+    gap: 50px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer h5 {
+    margin: 5px;
+    flex: 1 1 0;
+  }
+  div#company2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  #cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+  div.card {
+    height: 400px;
+    padding: 15px;
+    width: 236px;
+    margin: 0;
+  }
+
+  h2 {
+    padding-top: 50px;
+  }
+  input {
+    margin-right: 10px;
+  }
+
+  div#secondPart a {
+    padding: 10px 50px;
+  }
+
+  main a {
+    padding: 10px 20px;
+  }
+  span {
+    margin: 30px;
+  }
+
+  h1#dreamshare {
+    padding-top: 0px;
+  }
+
+  h4 {
+    margin-top: 5px;
+  }
+
+  div#firstPart {
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  div#secondPart {
+    padding-top: 10%;
+  }
+
+  div#cards {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  div.card {
+    height: 400px;
+    padding: 15px;
+    width: 300px;
+    margin: 0;
+  }
+
+  div#firstPart {
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  div#secondPart {
+    padding-top: 10%;
+  }
+}
