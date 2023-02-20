@@ -62,11 +62,13 @@ nav {
 }
 nav a {
   margin: 30px 0;
+  border: 2px solid transparent;
+  transition-duration: 0.3s;
 }
 
 a:hover {
   border-radius: 30px;
-  border: 2px solid white;
+  border-color: white;
   margin: 28px -2px;
 }
 
